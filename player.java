@@ -1,4 +1,4 @@
- MediaRouteButton customMediaButton = moviePlayerView.findViewById(R.id.full_cast_totv);
+ MediaRouteButton customMediaButton = moviePlayerView.findViewById(R.id.full_cast_totv); // rounter has to be added in playter control.xml code  (refer that snippet in playercontrol.xml.
         casty = Casty.create(this).withMiniController(); // initlize mini player. (Customize if you like)
         casty.setUpMediaRouteButton(customMediaButton);
         casty.setOnConnectChangeListener(new Casty.OnConnectChangeListener() {
